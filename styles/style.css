@@ -77,6 +77,45 @@
   background-color: #2f80ed;
 }
 
+.two-columns {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  min-width: 784px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
