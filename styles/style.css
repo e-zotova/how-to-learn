@@ -236,6 +236,7 @@
 
 .table_theme_dark {
   padding-bottom: 90px;
+  z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -247,11 +248,13 @@
 }
 
 .table__heading_theme_dark {
-  z-index: 5;
+  position: relative;
+  z-index: 2;
 }
 
 .table__text_theme_dark {
-  z-index: 5;
+  position: relative;
+  z-index: 2;
 }
 
 .footer__columns {
