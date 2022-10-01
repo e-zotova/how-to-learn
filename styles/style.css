@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
 }
 
 .logo {
@@ -57,7 +58,7 @@
   font-weight: normal;
 }
 
-.header__main_illustration {
+.header__main-illustration {
   position: absolute;
   width: 765px;
   height: 608px;
@@ -86,6 +87,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   font-size: 18px;
   font-weight: normal;
@@ -258,35 +260,28 @@
 }
 
 .footer {
-  display: flex;
-  min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #1f1f1f;
 }
 
 .footer__columns {
+  min-height: 350px;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   justify-content: space-between;
-  object-fit: cover;
   width: 90%;
   list-style: none;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   flex-basis: 711px;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
-  color: white;
 }
 
 .logo_place_footer {
-  display: flex;
   background-image: url(../images/logo_place_footer.svg);
   background-color: #1f1f1f;
   top: 30px;
@@ -295,28 +290,34 @@
 
 .footer__author {
   padding: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  color: white;
 }
 
 .footer__column-links {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
 .footer__column-heading {
-  color: white;
+  display: flex;
+  margin-bottom: 20px;
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  margin-bottom: 20px;
+  color: white;
 }
 
 .footer__column-link {
-  color: white;
+  padding-bottom: 16px;
+  width: 16px;
+  height: 16px;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
-  margin-bottom: 16px;
-  width: 16px;
-  height: 16px;
   text-decoration: none;
+  color: white;
 }
