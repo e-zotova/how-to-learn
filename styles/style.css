@@ -257,8 +257,32 @@
   z-index: 2;
 }
 
-.footer__columns {
+.footer {
+  display: flex;
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #1f1f1f;
+}
+
+.footer__columns {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  object-fit: cover;
+  width: 90%;
+  list-style: none;
+}
+
+.footer__columns_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  flex-basis: 711px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  color: white;
 }
 
 .logo_place_footer {
@@ -267,4 +291,32 @@
   background-color: #1f1f1f;
   top: 30px;
   left: 64px;
+}
+
+.footer__author {
+  padding: 18px 0;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__column-heading {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 16px;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
 }
