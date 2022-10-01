@@ -7,12 +7,28 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000000;
   overflow: hidden;
 }
 
 .logo {
   width: 228px;
   height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
+  background-image: url(../images/logo_place_header.svg);
+  background-color: #f2f2f2;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  background-color: #1f1f1f;
+  top: 30px;
+  left: 64px;
 }
 
 .link {
@@ -28,14 +44,6 @@
   position: relative;
   z-index: 1;
   /* выше установили ограничения для секции */
-}
-
-.logo_place_header {
-  position: absolute;
-  background-image: url(../images/logo_place_header.svg);
-  background-color: #f2f2f2;
-  top: 30px;
-  left: 64px;
 }
 
 .header__title {
@@ -126,6 +134,11 @@
   line-height: 1.15;
 }
 
+.section-title_theme_dark {
+  color: white;
+  padding-top: 90px;
+}
+
 .section-subtitle {
   margin: 0 auto;
   padding-top: 20px;
@@ -134,6 +147,10 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
 }
 
 .table {
@@ -146,10 +163,23 @@
   padding-bottom: 100px;
 }
 
+.table_theme_dark {
+  padding-bottom: 90px;
+  z-index: 2;
+}
+
 .table__cell {
   margin: 0;
   margin-top: 60px;
   width: 250px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .table__heading {
@@ -160,12 +190,22 @@
   line-height: 1.15;
 }
 
+.table__heading_theme_dark {
+  position: relative;
+  z-index: 2;
+}
+
 .table__text {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   padding-bottom: 20px;
+}
+
+.table__text_theme_dark {
+  position: relative;
+  z-index: 2;
 }
 
 .feynman {
@@ -227,38 +267,6 @@
   z-index: 1;
 }
 
-.section-title_theme_dark {
-  color: white;
-  padding-top: 90px;
-}
-
-.section-subtitle_theme_dark {
-  color: white;
-}
-
-.table_theme_dark {
-  padding-bottom: 90px;
-  z-index: 2;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-.table__heading_theme_dark {
-  position: relative;
-  z-index: 2;
-}
-
-.table__text_theme_dark {
-  position: relative;
-  z-index: 2;
-}
-
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -279,13 +287,6 @@
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
-}
-
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
-  background-color: #1f1f1f;
-  top: 30px;
-  left: 64px;
 }
 
 .footer__author {
