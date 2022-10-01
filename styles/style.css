@@ -7,8 +7,23 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #000000;
+  color: #000;
   overflow: hidden;
+}
+
+.link {
+  color: #2f80ed;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -29,21 +44,6 @@
   background-color: #1f1f1f;
   top: 30px;
   left: 64px;
-}
-
-.link {
-  color: #2f80ed;
-}
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  display: flex;
-  position: relative;
-  z-index: 1;
-  /* выше установили ограничения для секции */
 }
 
 .header__title {
@@ -214,7 +214,7 @@
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  background-image: url("../images/feynman.png");
+  background-image: url('../images/feynman.png');
   background-size: 867px 637px;
   background-repeat: no-repeat;
   background-position: left bottom;
