@@ -270,25 +270,28 @@
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  display: flex;
+  min-height: 350px;
   background-color: #1f1f1f;
 }
 
 .footer__columns {
-  min-height: 250px;
   display: flex;
-  margin: auto;
+  margin: 0 auto;
+  padding: 60px 0 40px;
   justify-content: space-between;
   width: 90%;
   list-style: none;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
+  justify-content: space-between;
 }
 
 .footer__author {
