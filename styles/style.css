@@ -164,6 +164,60 @@
   color: white;
 }
 
+.techniques {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  margin: 0 auto;
+  column-gap: 100px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.cards__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 240px;
+}
+
+.cards__item:last-child {
+  padding: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  padding: 60px 40px 43px 40px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+  text-align: center;
+}
+
 .table {
   display: flex;
   margin: 0 auto;
