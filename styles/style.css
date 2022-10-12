@@ -105,6 +105,11 @@
   padding-top: 100px;
 }
 
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 60px;
+}
+
 .two-columns__brief {
   margin: 0;
   width: 175px;
@@ -224,6 +229,8 @@
   justify-content: center;
   column-gap: 20px;
   padding-top: 50px;
+  overflow: visible;
+  max-height: 255px;
 }
 
 .table {
