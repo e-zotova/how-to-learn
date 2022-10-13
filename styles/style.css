@@ -160,6 +160,8 @@
 .section-title_theme_dark {
   color: white;
   padding-top: 90px;
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -174,6 +176,8 @@
 
 .section-subtitle_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .techniques {
@@ -251,7 +255,7 @@
 
 .table_theme_dark {
   padding-bottom: 90px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .table__cell {
@@ -278,7 +282,7 @@
 
 .table__heading_theme_dark {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .table__text {
@@ -291,7 +295,7 @@
 
 .table__text_theme_dark {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .feynman {
