@@ -22,6 +22,9 @@
 @import url(./blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(./blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/*import for techniques block*/
+@import url(./blocks/techniques/techniques.css);
+
 /*imports for section-title block*/
 @import url(./blocks/section-title/section-title.css);
 @import url(./blocks/section-title/_theme/section-title_theme_dark.css);
@@ -29,19 +32,6 @@
 /*imports for section-subtitle block*/
 @import url(./blocks/section-subtitle/section-subtitle.css);
 @import url(./blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-
-/*imports for table block*/
-@import url(./blocks/table/table.css);
-@import url(./blocks/table/_theme/table_theme_dark.css);
-@import url(./blocks/table/__cell/table__cell.css);
-@import url(./blocks/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(./blocks/table/__heading/table__heading.css);
-@import url(./blocks/table/__heading/_theme/table__heading_theme_dark.css);
-@import url(./blocks/table/__text/table__text.css);
-@import url(./blocks/table/__text/_theme/table__text_theme_dark.css);
-
-/*import for techniques block*/
-@import url(./blocks/techniques/techniques.css);
 
 /*import for cards block*/
 @import url(./blocks/cards/cards.css);
@@ -63,6 +53,16 @@
 @import url(./blocks/feynman/__title/feynman__title.css);
 @import url(./blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(./blocks/feynman/__link/feynman__link.css);
+
+/*imports for table block*/
+@import url(./blocks/table/table.css);
+@import url(./blocks/table/_theme/table_theme_dark.css);
+@import url(./blocks/table/__cell/table__cell.css);
+@import url(./blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(./blocks/table/__heading/table__heading.css);
+@import url(./blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(./blocks/table/__text/table__text.css);
+@import url(./blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /*imports for khan block*/
 @import url(./blocks/khan/khan.css);
