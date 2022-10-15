@@ -17,3 +17,7 @@
 .link:hover {
   opacity: .5;
 }
+
+.paragraph-reset {
+  margin: 0;
+}
