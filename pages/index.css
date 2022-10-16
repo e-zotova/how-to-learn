@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/link/link.css);
 
 /*imports for header block*/
 @import url(../blocks/header/header.css);
