@@ -14,4 +14,4 @@
 ## Запуск проекта.
 Клонировать репозиторий, открыть в VSCode, запустить index.html с помощью LiveServer.
 
-https://e-zotova.github.io/how-to-learn/
+[Ссылка на проект в GitHub Pages](https://e-zotova.github.io/how-to-learn/)
